@@ -1,0 +1,37 @@
+{
+  "id": "08f42316-bc82-4404-9484-bc58cd49c5ba",
+  "name": "Jenworks - Record Deletion",
+  "publisher": "Jendev",
+  "version": "22.0.0.0",
+  "brief": "Record Deletion",
+  "description": "Record Deletion",
+  "privacyStatement": "https://www.jendev.com/privacy",
+  "EULA": "https://www.jendev.com/eula",
+  "help": "https://www.jendev.com/help",
+  "url": "https://www.jendev.com",
+  "logo": "../logo/Jendev_Logo_RGB.png",
+  "contextSensitiveHelpUrl": "https://www.jendev.com/help",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 90000,
+      "to": 90010
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "11.0",
+  "target": "Cloud",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith",
+    "NoPromotedActionProperties"
+  ],
+  "applicationInsightsConnectionString": ""
+}

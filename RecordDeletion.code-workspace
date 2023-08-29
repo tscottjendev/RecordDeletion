@@ -1,0 +1,107 @@
+{
+	"folders": [
+		{
+			"path": "RecordDeletion"
+		},
+		{
+			"path": ".alpackages"
+		}
+	],
+	"settings": {
+		"al.assemblyProbingPaths": [
+			"./.netpackages"
+		],
+		"al.backgroundCodeAnalysis": "File",
+		"al.enableCodeActions": true,
+		"al.enableCodeAnalysis": true,
+		"al.incrementalBuild": true,
+		"al.codeAnalyzers": [
+			"${CodeCop}",
+			"${UICop}",
+			"${AppSourceCop}"
+		],
+		"al.packageCachePath": "../.alpackages",
+		"al.snapshotDebuggingPath": "../.snapshot",
+		"al.snapshotOutputPath": "../.snapshots",
+		"al.ruleSetPath": "../.ruleset/generalOverride.ruleset.json",
+		"alOutline.codeActionsOnSave": [
+			"SortReportColumns",
+			"SortProperties",
+			"SortProcedures",
+			"SortVariables",
+			"FormatDocument"
+		],
+		"alOutline.codeCleanupActions": [
+			"SortTableFields",
+			"SortReportColumns",
+			"SortProperties",
+			"SortProcedures",
+			"SortVariables",
+			"FormatDocument",
+			"AddEnumValuesCaptions",
+			"ConvertObjectIdsToNames",
+			"FixKeywordsCase",
+			"FixIdentifiersCase",
+			"AddMissingParentheses",
+			"RemoveUnusedVariables",
+			"RemoveBeginEnd",
+			"RemoveEmptyTriggers",
+			"RemoveEmptyLines",
+			"TrimTrailingWhitespace",
+			"MakeFlowFieldsReadOnly"
+		],
+		"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"CRS.ObjectNamePrefix": "",
+		"cSpell.words": [
+			"bcpt",
+			"Jendev",
+			"Jenworks",
+			"Mockaroo",
+			"Netronics",
+			"ruleset"
+		],
+		"editor.codeActionsOnSave": {
+			"source.fixAll.al": true
+		},
+		"linterCop.autoDownload": true,
+		"todo-tree.general.tags": [
+			"BUG",
+			"HACK",
+			"FIXME",
+			"TODO",
+			"XXX",
+			"[ ]",
+			"[x]",
+			"Unsupported feature:",
+			"This property is currently not supported",
+			"HyperLink",
+			"#pragma warning disable"
+		],
+		"todo-tree.tree.scanMode": "workspace only",
+		"powershell.cwd": "c:\\Repos\\Jendev\\JI-InternalSystem-NEW\\Scripts",
+		"alOutline.codeActionsOnSaveIgnoreFiles": [
+			"**/Report - ForNav/*"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"davidfeldhoff.al-codeactions",
+			"ms-dynamics-smb.al",
+			"wbrakowski.al-navigator",
+			"bartpermentier.al-toolbox",
+			"365businessdevelopment.bdev-al-xml-doc",
+			"fluxxusnl.atdd-testscriptor",
+			"andrzejzwierzchowski.al-code-outline",
+			"eamodio.gitlens",
+			"heaths.vscode-guid",
+			"rangav.vscode-thunder-client",
+			"gruntfuggly.todo-tree",
+			"waldo.crs-al-language-extension",
+			"vjeko.vjeko-al-objid",
+			"grapecity.gc-excelviewer",
+			"stefanmaron.businesscentral-lintercop",
+			"usernamehw.errorlens"
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "name": "General Override",
+    "description": "Default overrides of Code Analyzers for Jendev ",
+    "rules": [
+        {
+            "id": "AA0005",
+            "action": "None",
+            "justification": "Only use BEGIN..END to enclose compound statements. - Coding style change"
+        },
+        {
+            "id": "AA0241",
+            "action": "None",
+            "justification": "Use all lowercase letters for reserved language keywords. - Miss identifying data types (Codeunit, Label, etc.)"
+        },
+        {
+            "id": "PTE0005",
+            "action": "None",
+            "justification": "The compilation target is set to 'OnPrem', but it must be set to 'Cloud' or 'Extension'."
+        },
+        {
+            "id": "LC0009",
+            "action": "Hidden",
+            "justification": "Show info message about code metrics for each function or trigger - Enable"
+        }
+    ]
+}

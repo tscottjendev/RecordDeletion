@@ -1,0 +1,10 @@
+{
+    "name": "Legacy",
+    "description": "Overrides of Code Analyzers for Legacy objects",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "../../.ruleset/generalOverride.ruleset.json"
+        }
+    ]
+}
